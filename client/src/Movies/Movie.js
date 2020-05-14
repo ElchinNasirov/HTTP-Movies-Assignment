@@ -46,7 +46,7 @@ const Movie = props => {
       <button className='delete-button' onClick={deleteMovie}>Delete</button>
       <div className='save-button' onClick={saveMovie}>Save</div>
       <Link to={`/update-movie/${movie.id}`}>
-        <button>Edit</button></Link>
+        <button className='edit-button' >Edit</button></Link>
     </div>
   );
 }
