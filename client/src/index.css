@@ -77,19 +77,25 @@ body {
 }
 
 .delete-button {
-  /* position: absolute; */
+  color: whitesmoke;
+  width: 90px;
+  border-radius: 5px;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 1px solid red;
   padding: 5px 10px;
+  margin: 10px;
   background-color: red;
 }
 
 .edit-button {
-  /* position: absolute; */
+  color: whitesmoke;
+  width: 90px;
+  border-radius: 5px;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 1px solid green;
   padding: 5px 10px;
+  margin: 10px;
   background-color: green;
 }
